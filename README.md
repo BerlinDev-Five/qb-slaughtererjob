@@ -45,3 +45,7 @@ and add this on your Config.Peds
 	invincible = true,
 	blockevents = true,
 }, `
+
+
+Any issues and problems related this script please contact me on my Discord 
+https://discord.gg/Nh8WscE6ck
