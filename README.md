@@ -7,18 +7,18 @@ qb-target configure soon...
 
 added this on your qbcore shared/items.lua
 
-`
+```lua
 ["alivechicken"] 		 			 	 = {["name"] = "alivechicken", 							["label"] = "Alive Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "alivechicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Alive Chicken"}, `
 
-`
+
 ["slaughteredchicken"] 		 		     = {["name"] = "slaughteredchicken", 						["label"] = "Slaughtered Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "slaughteredchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Slaughtered Chicken"}, `
 
-`
-["packagedchicken"] 		 			 = {["name"] = "packagedchicken", 							["label"] = "Packaged Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "packagedchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Packaged Chicken"}, `
 
-
-#add this on your qb-target init Config.TargetModels
+["packagedchicken"] 		 			 = {["name"] = "packagedchicken", 							["label"] = "Packaged Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "packagedchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Packaged Chicken"}, 
 ```
+
+Add this on your qb-target init Config.TargetModels
+```lua
     ["chickensell"] = {
         models = {
             "csb_chef", 
@@ -34,12 +34,12 @@ added this on your qbcore shared/items.lua
         },
         distance = 2.5,
     },
-    
+```    
 
 
-#and add this on your qb-target init Config.Peds
+And add this on your qb-target init Config.Peds
 
-
+```lua
 
      { 
 	model = `csb_chef`,
@@ -49,8 +49,8 @@ added this on your qbcore shared/items.lua
 	invincible = true,
 	blockevents = true,
 }, 
-
+```
 
 
 #Any issues and problems related this script please contact me on my Discord 
-#https://discord.gg/Nh8WscE6ck
+https://discord.gg/Nh8WscE6ck
