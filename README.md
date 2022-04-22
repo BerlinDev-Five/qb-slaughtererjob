@@ -35,7 +35,7 @@ add this on your qb-target init Config.TargetModels
         distance = 2.5,
     }, `
     
-and add this on your Config.Peds
+and add this on your qb-target init Config.Peds
 
 `     { 
 	model = `csb_chef`,
